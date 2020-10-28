@@ -27,7 +27,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic
+npm install @erkhuy/ckeditor5-build-erkhuy-custom@19.0.0
 ```
 
 And use it in your website:
@@ -36,7 +36,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script src="./node_modules/ @erkhuy/ckeditor5-build-erkhuy-custom@19.0.0/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -52,10 +52,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from ' @erkhuy/ckeditor5-build-erkhuy-custom@19.0.0';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
+// const ClassicEditor = require( ' @erkhuy/ckeditor5-build-erkhuy-custom@19.0.0' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
