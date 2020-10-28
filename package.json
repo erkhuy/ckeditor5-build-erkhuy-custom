@@ -1,5 +1,5 @@
 {
-    "name": "@ckeditor/ckeditor5-build-classic",
+    "name": "@erkhuy/ckeditor5-build-erkhuy-custom",
     "version": "19.0.0",
     "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
     "keywords": [
@@ -88,6 +88,9 @@
         "lint": "eslint --quiet '**/*.js'",
         "stylelint": "stylelint --quiet --allow-empty-input 'theme/**/*.css' 'docs/**/*.css'",
         "preversion": "npm run build"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
     },
     "lint-staged": {
         "**/*.js": [
